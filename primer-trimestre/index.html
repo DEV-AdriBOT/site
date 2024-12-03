@@ -8,9 +8,9 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="../favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?2308">
-	<link rel="stylesheet" type="text/css" href="../style.css?4076">
-	<link rel="stylesheet" type="text/css" href="../css/animate.min.css?1873">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?9936">
+	<link rel="stylesheet" type="text/css" href="../style.css?9398">
+	<link rel="stylesheet" type="text/css" href="../css/animate.min.css?4662">
 	<link rel="stylesheet" type="text/css" href="../css/all.min.css">
 	
     <title>Primer trimestre</title>
@@ -84,8 +84,9 @@
 			</div>
 			<div class="col">
 				<div class="ratio ratio-16x9">
-					<iframe class="embed-responsive-item lazyload" src="../img/lazyload-ph.png" data-src="https://youtu.be/y6XlMUAXeks?si=_OzUqtbI-t-JbiDC" frameborder="0" allow="picture-in-picture" allowfullscreen="">
-					</iframe>
+					<video controls="" class="embed-responsive-item lazyload" data-src="../vid/3rd%20ESO%20Competency%20Task%20Social%20Studies.mp4">
+						Your browser does not support HTML5 video.
+					</video>
 				</div>
 			</div>
 		</div>
@@ -94,7 +95,7 @@
 <!-- bloc-1 END -->
 
 <!-- bloc-2 -->
-<div class="bloc none bloc-tile-2 bg-Portadas-20429-20-281-29 d-bloc " id="bloc-2">
+<div class="bloc none bloc-tile-2 bg-Portadas-20429-20-281-29 d-bloc" id="bloc-2">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-12">
@@ -104,8 +105,9 @@
 			</div>
 			<div class="col">
 				<div class="ratio ratio-16x9">
-					<iframe class="embed-responsive-item lazyload" src="../img/lazyload-ph.png" data-src="https://youtu.be/mz3cNx228r4?si=A3OTLPeDXaQzYUJU" frameborder="0" allow="picture-in-picture" allowfullscreen="">
-					</iframe>
+					<video controls="" class="embed-responsive-item lazyload" data-src="../vid/3rd%20ESO%20Math%20Task.mp4">
+						Your browser does not support HTML5 video.
+					</video>
 				</div>
 			</div>
 		</div>
@@ -148,9 +150,10 @@
 				</h1>
 			</div>
 			<div class="col">
-				<div class="ratio ratio-16x9">
-					<iframe class="embed-responsive-item lazyload" src="../img/lazyload-ph.png" data-src="https://youtu.be/7fdubWD-R8g?si=2ear0KOeRQu2uPKF frameborder=" frameborder="0" allow="picture-in-picture" allowfullscreen="">
-					</iframe>
+				<div class="ratio ratio-16x9 ">
+					<video controls="" class="embed-responsive-item lazyload" data-src="../vid/Física%20-%20Tarea%20competencial.mp4">
+						Your browser does not support HTML5 video.
+					</video>
 				</div>
 			</div>
 		</div>
@@ -191,10 +194,12 @@
 
 
 <!-- Additional JS -->
-<script src="../js/bootstrap.bundle.min.js?1566"></script>
-<script src="../js/blocs.min.js?9472"></script>
+<script src="../js/bootstrap.bundle.min.js?2644"></script>
+<script src="../js/blocs.min.js?6318"></script>
 <script src="../js/lazysizes.min.js" defer></script><!-- Additional JS END -->
-
+<!-- Video / Audio Player Auto Pause JS -->
+<script>let activePlayer = null; const players = document.querySelectorAll('audio, video'); players.forEach(player => { player.addEventListener('play', function() { if (activePlayer && activePlayer !== this && !activePlayer.hasAttribute('autoplay')) { activePlayer.pause(); } activePlayer = this; }); });</script>
+<!-- Video / Audio Player Auto Pause JS -->
 
 </body>
 </html>
