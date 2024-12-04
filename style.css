@@ -363,6 +363,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .row-style{
 	width:52.01%;
 }
+.h1-style{
+	width:100%;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -382,9 +385,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .tc-5864{
 	color:var(--swatch-var-5864)!important;
-}
-.tc-3453{
-	color:var(--swatch-var-3453)!important;
 }
 
 /* Bloc image backgrounds */
